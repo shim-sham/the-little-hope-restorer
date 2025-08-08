@@ -1,8 +1,11 @@
 # The little hope restorer :)
-Made for GWC SIP program game jam.
+Made for GWC SIP's game jam, for the brief "what hope means to me".<br>Hope, to me, means believing things can get better. I wanted to capture that feeling by making a game where helping others and caring for the environment end up bringing colour and life back to a tiny bug habitat (inside a log).<br>
+<br>I made this game by learning p5.js through GWC's SIP tutorials, and then applying that knowledge!<br>
+<br>A challenge I faced while making this was ensuring that the narrative was clear and the player’s goal was obvious, so the player was never stuck on what to do next. I overcame this by adding dialogue popups and moving the to-do list to a permanent box at the top. 
 
 ###  what is this about?
 You play as a little caterpillar, restoring hope to your town, by helping others, cleaning up litter, and bringing colour back to the streets!
+
 
 ###  Attributions
 - <a href="https://www.vecteezy.com/free-png/juice-bottle-cap">Juice Bottle Cap PNGs by Vecteezy</a>
