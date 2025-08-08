@@ -1,33 +1,16 @@
-# Maze Game Starter Code
-This is a place for you to start building your Maze Game!
+# The little hope restorer :)
+Made for GWC SIP program game jam.
 
-###  Project Description
-Create a game where your player works their way through a maze. Once you reach the end of the maze you win!
+###  what is this about?
+You play as a little caterpillar, restoring hope to your town, by helping others, cleaning up litter, and bringing colour back to the streets!
 
 ###  Attributions
-*If you used any code, ideas, images, or resources from another person or group of people, tell us about it here. Make sure it is in the public domain, has a license that allows you to use it, or is one of your own.
-- Add here if applicable
+- <a href="https://www.vecteezy.com/free-png/juice-bottle-cap">Juice Bottle Cap PNGs by Vecteezy</a>
+- <a href="https://www.vecteezy.com/free-vector/pixel">Pixel Vectors by Vecteezy (used for cricket)</a>
+- <a href = "https://stock.adobe.com/uk/images/candy-red-wrapper-empty-and-open-isolated-on-white-background-with-copy-space-for-your-text/304696907?sdid=DMMD1BPP&mv=social&mv2=orgsoc&as_channel=social_ads&as_campclass=brand&as_campaign=Ecommerce&as_source=Pinterest&as_camptype=acquisitions&as_audience=users">Candy Red Wrapper</a>
+- <a href="https://www.vecteezy.com/free-vector/potato">Potato Vectors by Vecteezy</a>
+- <a href = "https://victory-works-studios-llc.itch.io/free-sprite-sheet-bugs">Free Sprite Sheet: Bugs</a>
+- <a href="https://www.vecteezy.com/vector-art/54384862-pixel-art-illustration-caterpillar-pixelated-caterpillar-caterpillar-insect-icon-pixelated-for-the-pixel-art-game-and-icon-for-website-and-game-old-school-retro">Pixel Art Caterpillar by Vecteezy</a>
+- <a href = 'https://craftpix.net/freebies/forest-and-trees-free-pixel-backgrounds/'>Forest and Trees Free Pixel Backgrounds (used for introduction background)</a>
 
 ---
-
-## File Overview
-
-### ← script.js
-
-This is where we will add the JavaScript code for our game.
-
-### ← assets
-
-Drag in assets, like images, to add them to your project. If you are adding an image, it is best to save it to your computer, then upload the file to the `assets` folder. The url of the image will be `assets/example.jpg` or `assets/example.png`.
-
-### ← index.html
-
-The HTML file contains HTML code that sets up a webpage for our game. We also add libraries in this file using HTML tags.
-
-### ← README.md
-
-That's this file. This is the place to tell people more about what your game does and how you built it. 
-
-### ← style.css
-
-The CSS file adds styling rules to your content like changing colors and fonts. We will not use this file for our game and instead update the style of our game in the script.js file.  
