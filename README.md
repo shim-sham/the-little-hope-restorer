@@ -6,7 +6,7 @@ Made for GWC SIP's game jam, for the brief "what hope means to me".<br>Hope, to 
 ###  what is this about?
 You play as a little caterpillar, restoring hope to your town, by helping others, cleaning up litter, and bringing colour back to the streets!
 
-
+---
 ###  Attributions
 - <a href="https://www.vecteezy.com/free-png/juice-bottle-cap">Juice Bottle Cap PNGs by Vecteezy</a>
 - <a href="https://www.vecteezy.com/free-vector/pixel">Pixel Vectors by Vecteezy (used for cricket)</a>
@@ -15,5 +15,6 @@ You play as a little caterpillar, restoring hope to your town, by helping others
 - <a href = "https://victory-works-studios-llc.itch.io/free-sprite-sheet-bugs">Free Sprite Sheet: Bugs</a>
 - <a href="https://www.vecteezy.com/vector-art/54384862-pixel-art-illustration-caterpillar-pixelated-caterpillar-caterpillar-insect-icon-pixelated-for-the-pixel-art-game-and-icon-for-website-and-game-old-school-retro">Pixel Art Caterpillar by Vecteezy</a>
 - <a href = 'https://craftpix.net/freebies/forest-and-trees-free-pixel-backgrounds/'>Forest and Trees Free Pixel Backgrounds (used for introduction background)</a>
-
 ---
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+
