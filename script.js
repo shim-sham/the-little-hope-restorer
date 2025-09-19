@@ -32,6 +32,9 @@ let pop
 let taskPopup
 let dialogueBox
 let dialogue
+let caterpillarsRight=[];
+let caterpillarsLeft=[];
+let frame=0
 function preload(){
   houseBgBefore = loadImage('assets/houses0.png');
   houseBgAfter = loadImage('assets/houses1.png')
@@ -52,9 +55,14 @@ function preload(){
   music = loadSound('assets/music.mp3');
   musicBefore = loadSound('assets/musicBefore.mp3')
   pop = loadSound("assets/pop.mp3")
-  caterpillarRightImg = loadImage('assets/caterpillar-right.png')
-  caterpillarLeftImg = loadImage('assets/caterpillar-left.png')
+  for (let i=1; i<=5; i++){
+    let img = loadImage(`assets/caterpillar${i}.png`)
+    caterpillarsRight.push(img);
+    img = loadImage(`assets/left-caterpillar${i}.png`)
+    caterpillarsLeft.push(img);
+  }
   introBg = loadImage('assets/introBg.jpg')
+  
 }
 /* SETUP RUNS ONCE */
 function setup() {
@@ -115,10 +123,11 @@ function game(){
   //Move the player
   if (kb. pressing("left")) {
     player.vel.x = -3;
-    player.img = caterpillarLeftImg;
+    player.img = caterpillarsLeft[frame];
   } else if (kb.pressing("right")) {
     player.vel.x = 3;
-    player.img = caterpillarRightImg;
+    player.img = caterpillarsRight[frame];
+    
   } else {
     player.vel.x = 0;
     player.vel.y = 0;
@@ -339,12 +348,16 @@ function taskList(){
   }
 }
 function playScreenAssets(){
+  frame=0
   playButton.pos = { x:-100, y:-100 };
   directionsButton.pos = { x:-200, y:-200 };
-  caterpillarLeftImg.resize(50,20)
-  caterpillarRightImg.resize(50,20)
+  for (i in caterpillarsRight){
+    caterpillarsRight[i].resize(50,20)
+    caterpillarsLeft[i].resize(50,20)
+  }
+  
   player = new Sprite(200, 375,50,20);
-  player.img = caterpillarLeftImg;
+  player.img = caterpillarsRight[frame];
   leafImg.resize(40,40)
   leaf = new Sprite (leafImg,100, 375)
   player.color = color(52, 235, 76)
