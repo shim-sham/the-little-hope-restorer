@@ -35,6 +35,8 @@ let dialogue
 let caterpillarsRight=[];
 let caterpillarsLeft=[];
 let frame=0
+let anim=1
+let moves=0;
 function preload(){
   houseBgBefore = loadImage('assets/houses0.png');
   houseBgAfter = loadImage('assets/houses1.png')
@@ -124,9 +126,25 @@ function game(){
   if (kb. pressing("left")) {
     player.vel.x = -3;
     player.img = caterpillarsLeft[frame];
+    moves+=1;
+    if (moves%3==0){
+      frame+=anim;
+      if (frame>=4||frame<=0){
+        anim*=-1;
+      }
+    }
+    
+
   } else if (kb.pressing("right")) {
     player.vel.x = 3;
     player.img = caterpillarsRight[frame];
+    moves+=1;
+    if (moves%3==0){
+      frame+=anim;
+      if (frame>=4||frame<=0){
+        anim*=-1;
+      }
+    }
     
   } else {
     player.vel.x = 0;
@@ -351,11 +369,16 @@ function playScreenAssets(){
   frame=0
   playButton.pos = { x:-100, y:-100 };
   directionsButton.pos = { x:-200, y:-200 };
-  for (i in caterpillarsRight){
-    caterpillarsRight[i].resize(50,20)
-    caterpillarsLeft[i].resize(50,20)
-  }
-  
+  caterpillarsRight[0].resize(72, 20);
+  caterpillarsLeft[0].resize(72, 20);
+  caterpillarsRight[1].resize(68,21);
+  caterpillarsLeft[1].resize(68,21);
+  caterpillarsRight[2].resize(66,25);
+  caterpillarsLeft[2].resize(66,25);
+  caterpillarsRight[3].resize(65,30);
+  caterpillarsLeft[3].resize(65,30);
+  caterpillarsRight[4].resize(55,30);
+  caterpillarsLeft[4].resize(55,30);
   player = new Sprite(200, 375,50,20);
   player.img = caterpillarsRight[frame];
   leafImg.resize(40,40)
