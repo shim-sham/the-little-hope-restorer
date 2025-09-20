@@ -1,0 +1,41 @@
+:root{
+    --light:  #faf1d1;
+    --dark: #9d6c4e;
+    --darker: #814732;
+    --lighter: #ebc364 ;
+    --font: monospace;
+}
+
+body{
+    background-color: var(--light);
+    color:var(--dark);
+    font-family: var(--font);
+    display: flex;
+    margin:30px;
+    justify-content: center;
+    align-content: center;
+}
+footer{
+    color: var(--light);
+    font-size: 15px;
+    background-color: var(--dark);
+    padding:10px;
+    justify-items: center;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+}
+.icon-link {
+    color: var(--light);
+    font-size: 30px;
+    text-decoration: none;
+    transition: transform 0.3s;
+
+}
+
+.icon-link:hover {
+    color: var(--lighter);
+    transform: scale(1.2);
+}

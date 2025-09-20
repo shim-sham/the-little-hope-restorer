@@ -9,10 +9,9 @@ You play as a little caterpillar, restoring hope to your town, by helping others
 ---
 ###  Attributions
 - <a href="https://dribbble.com/shots/9830656-Caterpillar-Sprite">Caterpillar Sprite by Oscar Cortez</a>
-- <a href="https://www.vecteezy.com/free-png/juice-bottle-cap">Juice Bottle Cap PNGs by Vecteezy</a>
 - <a href="https://www.vecteezy.com/free-vector/pixel">Pixel Vectors by Vecteezy (used for cricket)</a>
-- <a href = "https://stock.adobe.com/uk/images/candy-red-wrapper-empty-and-open-isolated-on-white-background-with-copy-space-for-your-text/304696907?sdid=DMMD1BPP&mv=social&mv2=orgsoc&as_channel=social_ads&as_campclass=brand&as_campaign=Ecommerce&as_source=Pinterest&as_camptype=acquisitions&as_audience=users">Candy Red Wrapper</a>
-- <a href="https://www.vecteezy.com/free-vector/potato">Potato Vectors by Vecteezy</a>
+- <a href = "https://www.shutterstock.com/image-vector/candy-wrapper-vector-cartoon-flat-illustration-1740833084">Candy Wrapper by Elena_Larvatus</a>
+- <a href="https://www.vecteezy.com/free-vector/potato">Potato Vectors by Vecteezy (crisp packet)</a>
 - <a href = "https://victory-works-studios-llc.itch.io/free-sprite-sheet-bugs">Free Sprite Sheet: Bugs</a>
 - <a href = 'https://craftpix.net/freebies/forest-and-trees-free-pixel-backgrounds/'>Forest and Trees Free Pixel Backgrounds (used for introduction background)</a>
 - bg and music by me!

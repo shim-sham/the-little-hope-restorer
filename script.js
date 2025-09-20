@@ -255,6 +255,8 @@ function game(){
       fly.pos = { x:0, y:-200 };
       bug1.pos = {x:100,y:500}
       bug2.pos = {x:100,y:-500}
+    }else if (player.x<=20){
+      player.x=20
     }
   }else{
     //MARKET AREA!!!
@@ -264,7 +266,8 @@ function game(){
       fly.pos = {x:100,y:350}
       bug1.pos = {x:175,y:350}
       bug2.pos = {x:250,y:350}
-      
+    }else if (player.x>=380){
+      player.x=380
     }
     if (!cricketHelped){
       tasks = "get cricket a flower to cheer him up!"
@@ -401,7 +404,7 @@ function playScreenAssets(){
   wrapper.pos = {x:300,y:375}
   wrapper.rotationLock = true;
   wrapper.collider = "static"
-  flyImg.resize(75,75)
+  flyImg.resize(74,52)
   fly = new Sprite(flyImg,50, 300);
   fly.pos = { x:-0, y:-200 };
   fly.collider = "static";
